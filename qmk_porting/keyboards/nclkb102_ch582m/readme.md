@@ -1,0 +1,1 @@
+102key，CH582m，no side RGB
