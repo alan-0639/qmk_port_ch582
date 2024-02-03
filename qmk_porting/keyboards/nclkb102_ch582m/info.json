@@ -2,32 +2,6 @@
     "name": "NCL102",
 	"vendorId": "0xA039",
     "productId": "0xA039",
-    "customKeycodes": [
-        {
-          "name": "USB",
-          "title": "USB MODE",
-          "shortName": "USB"
-        },
-        {
-          "name": "BLE1",
-          "title": "Tap = Use BLE slot 1, Hold = Clean BLE slot 1 binding",
-          "shortName": "BLE1"
-        },{
-            "name": "BLE2",
-            "title": "Tap = Use BLE slot 2, Hold = Clean BLE slot 2 binding",
-            "shortName": "BLE2"
-          },
-          {
-            "name": "BLE3",
-            "title": "Tap = Use BLE slot 3, Hold = Clean BLE slot 3 binding",
-            "shortName": "BLE3"
-          },
-        {
-            "name": "BC_A",
-            "title": "Clean ALL BLE slot binding",
-            "shortName": "BC_A"
-          }
-        ],
     "matrix": {
         "rows": 6,
         "cols": 19

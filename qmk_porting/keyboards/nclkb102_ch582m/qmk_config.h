@@ -26,7 +26,7 @@
 #define HOLD_ON_OTHER_KEY_PRESS
 
 #define EARLY_INIT_PERFORM_BOOTLOADER_JUMP FALSE
-
+/*
 #ifdef ENCODER_ENABLE
 #define ENCODERS_PAD_A \
     {                  \
@@ -36,9 +36,10 @@
     {                  \
         B6             \
     }
+
 #define ENCODER_RESOLUTION 4
 #endif
-
+*/
 #define WS2812_EN_PIN   A10
 #define WS2812_EN_LEVEL 1
 
