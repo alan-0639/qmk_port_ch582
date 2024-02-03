@@ -12,12 +12,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] =
       KC_LCTL,  KC_LGUI,  KC_LALT,                      KC_SPC,                          LT(1, KC_LEFT),  KC_RCTL,            KC_LEFT,  KC_DOWN,  KC_RGHT,   KC_P0,              KC_PDOT,  KC_PENT
    ),
    [1] = LAYOUT_tkl_ansi (
-      QK_BOOT , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , RGB_HUI , RGB_HUD ,  KC_TRNS , KC_LPRN , KC_RPRN , KC_TRNS ,
-      KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , RGB_TOG ,  KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,
-      KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , RGB_SAI ,  KC_TRNS , KC_TRNS , KC_TRNS ,         
-      KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,           RGB_SAD ,  KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,
-      KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,           RGB_VAI ,            KC_TRNS , KC_TRNS , KC_TRNS , 
-      KC_TRNS , KC_TRNS , KC_TRNS ,                     KC_TRNS ,                               KC_TRNS , KC_TRNS ,           RGB_MOD , RGB_VAD , RGB_RMOD , KC_TRNS ,           KC_TRNS , KC_TRNS
-
+      QK_BOOT   , KC_TRNS   , KC_TRNS   , KC_TRNS   , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS  , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , RGB_HUI , RGB_HUD ,  KC_TRNS , KC_LPRN , KC_RPRN , KC_TRNS ,
+      BLE_SLOT0 , BLE_SLOT1 , BLE_SLOT2 , BLE_SLOT3 , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS  , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , RGB_TOG ,  KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,
+      KC_TRNS   , KC_TRNS   , KC_TRNS   , KC_TRNS   , KC_TRNS , KC_TRNS , KC_TRNS , USB_MODE , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , RGB_SAI ,  KC_TRNS , KC_TRNS , KC_TRNS ,         
+      KC_TRNS   , KC_TRNS   , KC_TRNS   , KC_TRNS   , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS  , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,           RGB_SAD ,  KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,
+      KC_TRNS   , KC_TRNS   , KC_TRNS   , KC_TRNS   , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS  , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,           RGB_VAI ,            KC_TRNS , KC_TRNS , KC_TRNS , 
+      KC_TRNS   , KC_TRNS   , KC_TRNS   ,                       KC_TRNS ,                               KC_TRNS , KC_TRNS ,           RGB_MOD , RGB_VAD , RGB_RMOD , KC_TRNS ,           KC_TRNS , KC_TRNS
    )
 }; 
