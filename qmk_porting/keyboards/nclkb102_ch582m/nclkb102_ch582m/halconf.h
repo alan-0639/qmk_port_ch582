@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define UART3_IO_REMAPPING
 
 /* I2C_IO_REMAPPING    -  I2C: PB13/PB12 -> PB21/PB20 */
-// #define I2C_IO_REMAPPING
+#define I2C_IO_REMAPPING
 
 /* SPI_IO_REMAPPING   -  SPI0:  PA12/PA13/PA14/PA15 -> PB12/PB13/PB14/PB15 */
 // #define SPI_IO_REMAPPING
@@ -43,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define BLE_TX_POWER LL_TX_POWEER_0_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_1_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_2_DBM
-#define BLE_TX_POWER LL_TX_POWEER_3_DBM
+// #define BLE_TX_POWER LL_TX_POWEER_3_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_4_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_5_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_6_DBM
