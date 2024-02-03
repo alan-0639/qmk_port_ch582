@@ -103,17 +103,18 @@
 #endif
 
 //以下是RGB IC，暫時沒弄雙芯片，先不設置，用的是SPI
-//#ifdef AW20216S
-//#define AW_GLOBAL_CURRENT_MAX 255
-//#define AW_SCALING_MAX        255
+/*#ifdef AW20216S
+#define AW_GLOBAL_CURRENT_MAX 255
+#define AW_SCALING_MAX        255
 
-//#define DRIVER_1_CS B20
-//#define DRIVER_1_EN B21
+#define DRIVER_1_CS B20
+#define DRIVER_1_EN B21
 
 #define DRIVER_COUNT       1
 #define DRIVER_1_LED_TOTAL 107
 #define DRIVER_LED_TOTAL   (DRIVER_1_LED_TOTAL)
 #endif
+*///以上是RGB IC，暫時沒弄雙芯片，先不設置，用的是SPI
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
