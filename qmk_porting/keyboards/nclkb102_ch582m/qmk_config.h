@@ -140,6 +140,6 @@
 /* define for OLED resolution  */
 
 
-//#ifdef OLED_ENABLE
-//#define OLED_DISPLAY_128X64
-//#endif
+#ifdef OLED_ENABLE
+#define OLED_DISPLAY_128X64
+#endif
